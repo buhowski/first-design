@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no, maximum-scale=1">
+	<link rel="shortcut icon" href="img/ico/icon.png" type="images/x-icon">
+	<link rel="stylesheet" href="style/style.css">
+	<link rel="stylesheet" href="style/responsive.css">
+	<link href="https://fonts.googleapis.com/css?family=Do+Hyeon" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Istok+Web" rel="stylesheet">
+	<title>Web-Portfolio</title>
+</head>
+<body>
+	<header id="top" class="header-prlx"> 
+		<div class="header">
+			<nav class="header_nav clearfix">
+				<input type="checkbox" name="toggle" id="menu" class="toggleMenu">
+				<label for="menu" title="MENU" class="toggleMenu"></label>
+				<ul>
+					<li><a class="call" href="#contacts" onclick="slowScroll('#contacts')">Contacts</a></li>
+					<li><a class="me" href="#about" onclick="slowScroll('#about')">About</a></li> 
+					<li><a class="work" href="#portfolio" onclick="slowScroll('#portfolio')">My works</a></li>
+				</ul>
+			</nav>
+		</div>
+		<div class="language">
+			<ul id="lang">
+				<li><a href="index.html" title="Русский">ru</a></li>
+				<li class="active"><a href="en.html" title="Switch to English">en</a></li>
+				<li><a href="ua.html" title="Українська">ua</a></li>
+			</ul>
+		</div>
+		<div class="main_logo">
+			<div class="web">
+				<a href="index.html" title="Main Page"><img src="img/ico/logo.png" alt="web_portfolio"></a>
+			</div>
+			<div class="mouse">
+				<a href="#portfolio" title="Slide to portfolio list" onclick="slowScroll('#portfolio')"><img src="img/ico/mouse.png" alt="mouse"></a>
+			</div>
+		</div>
+
+	</header>
+	<div id="about">
+		<img class="face" src="img/face.jpg" alt="my-photo" title="Hello World">
+		<div class="about_info">
+			<h1>Alexander Tsiomakh</h1>
+			<h2><span>.web_coder: </span> { HTML5, CSS3, javaScript }</h2>
+			<div class="about_responsive">
+				<p><span>Date of Birth: </span>September 16, 1992. (26 years)</p>
+				<p><span>Personal Qualities: </span>Critical thinking, stress-resistance, creativity, ability to abstract, fast and confident learner, ready to solve non-standard tasks, altruism, good sense of humour.</p>
+				<ul><li class="span">Skills:</li>
+					<li>Confident knowledge of HTML, CSS.</li>
+					<li>Experience with responsive/adaptive coding including Bootstrap and FlexBox, working with WordPress / Magento.</li>
+					<li>Pixel Perfect coding</li>
+					<li>Basic knowledge of native JavaScript (+ jQuery framework).</li>
+					<li>OOP + Ajax, PHP (primary knowledge).</li>
+					<li>Experience with Git, Node.js, SASS, Pug template.</li>
+					<li>Experience using Adobe Photoshop.</li>
+					<li>Working with parallax effects.</li>
+					<li>Understanding of website usability.</li>
+				</ul>
+				<p><span>Knowledge of programs: </span>Graphics editors: (Adobe Photoshop, Figma, Bootstrap Studio), text-editors: (Notepad++, Sublime Text 3, PhpStorm, Brackets). Have experience of using a local server Open Server.</p>
+				<ul><li class="span">Languages: </li>
+					<li>Ukrainian: native.</li>
+					<li>Russian: confident.</li>
+					<li>English: intermediate+.</li>
+				</ul>
+				<p><span>Additional Information: </span>My desire to join IT industry arose somewhere in 2017. It was preceded by journeys of self-discovery, many trips and work in various fields of activity. So after a lot of experiments I eventually found myself in web-programming, so now I just need to understand how it works. That's why I started mastering the needed skills by myself. Many obstacles awaited me along the way, such moments like misunderstanding what to do next, or the fear of disliking the chosen path, which actually didn't happened and it's awesome. Now, when I got through all the barriers and took a good start in this kind of a "marathon". I know that miles of code receiving are ahead, but I just go for it and happy to bring to life all of my ideas to the final destination.</p>
+				<p>Now I'm currently looking for a job/cooperation. Open for interesting suggestions, ready to improve myself and hear some practical advice.</p>
+				<p><span>Objective: </span>Learning and developing my skills in step with modern technology. I have desire to create and realize my own project. But presently I'm seeking from where to start.</p>
+			</div>
+		</div>
+		<div class="html"></div>
+		<div class="js"></div>
+		<div class="css"></div>
+	</div>
+	<div class="wrapper">
+		<div class="portfolio_menu" >
+			<div class="my_portfolio" id="portfolio">
+				<img class="face" src="img/portfolio-photo.png" alt="photo" title="All the time working">
+				<h2>.portfolio_list: <span>{</span></h2>
+				<div class="portfolio_list clearfix">
+					<div class="portfolio_item">
+						<a href="https://buhowski.github.io/work-projekt/" target="_blank">
+							<div class="portfolio portfolio_first">
+								<img src="img/work-pr.png">
+							</div>
+						</a>
+					</div>
+					<div class="portfolio_item">
+						<a href="https://buhowski.github.io/adaptiveflexbem/" target="_blank">
+							<div class="portfolio portfolio_one">
+								<img src="img/portfolio-adaptive.jpg">
+							</div>
+						</a>
+					</div>
+					<div class="portfolio_item">
+						<a href="https://buhowski.github.io/bootstrap3/" target="_blank">
+							<div class="portfolio portfolio_two">
+								<img src="img/portfolio-botstrap3-coding.jpg">
+							</div>
+						</a>
+					</div>
+					<div class="portfolio_item">
+						<a href="https://buhowski.github.io/flexBox/" target="_blank">
+							<div class="portfolio portfolio_three">
+								<img src="img/portfolio-flexbox.jpg">
+							</div>
+						</a>
+					</div>
+					<div class="portfolio_item">
+						<a href="https://buhowski.github.io/vintageTZ/" target="_blank">
+							<div class="portfolio portfolio_four">
+								<img src="img/portfolio-pos.jpg">
+							</div>
+						</a>
+					</div>
+				</div>
+				<div class="man_bg"></div>
+				<h2><span>}</span></h2>
+			</div>
+		</div>
+		<footer id="contacts">
+			<div class="footer">
+				<h2 class="align_right">Contact Information</h2>
+				<div class="contact_field">
+					<h2>WRITE ME:</h2>
+					<form id="form">
+						<div class="form_text">
+							<input type="text" name="name" placeholder="Your name">
+						</div>
+						<div class="form_text">
+							<input type="email" name="email" placeholder="E-mail*" required>
+						</div>
+						<div class="form_text rel_ufo">
+							<textarea class="textarea" name="text" placeholder="Message" rows="8" cols="40"></textarea>
+							<div onclick="slowScroll('#contacts')" class="ufo" title="innovative technologies"></div>
+							<div onclick="slowScroll('#form_btn')" class="alien" title="me"></div>
+						</div>
+						<p>* - required fields!</p>
+						<button id="form_btn" type="submit">SEND MESSAGE</button>
+					</form>
+				</div>
+				<div class="my_contacts clearfix">
+					<div class="social_contacts right">
+						<a href="https://github.com/buhowski" target="_blank" title="Im on GitHub" style="background: url(img/ico/git-icon.png) no-repeat;"></a>
+						<a href="https://www.linkedin.com/in/buhowski" target="_blank" title="LinkedIN" style="background: url(img/ico/linkedin-icon.png) no-repeat;"></a>
+						<a href="https://t.me/tsiomakh" target="_blank" title="Send message by telegram" style="background: url(img/ico/telegram-icon.png) no-repeat;"></a>
+						<a href="#" title="Link is absent" style="background: url(img/ico/insta-icon.png) no-repeat;"></a>
+					</div>
+					<div class="phone left">
+						<a href="mailto:a.tsiomakh@gmail.com" title="Send e-mail">a.tsiomakh@gmail.com</a>
+						<a href="tel:+380993129768" title="My phone">+380993129768</a>  
+					</div>
+				</div>
+			</div>
+			<div class="copyright">
+				 <p>&copy; 2018 <a href="index.html" title="main page">Web-Portfolio.</a> Designed and Created by <a href="#about" onclick="slowScroll('#about')" title="Человек Мужик">Alexander Tsiomakh.</a></p>
+			</div>
+		</footer>
+	</div>
+	
+	<a class="topbtn" href="#top" onclick="slowScroll('#top')"><img src="img/ico/topbtn.png" alt="btn-top-pic"></a>
+	
+
+	<script src="jScript/jquery-3.3.1.min.js"></script>
+	<script src="jScript/script.js"></script>
+
+
+</body>
+</html>

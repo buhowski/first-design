@@ -1,0 +1,382 @@
+@media screen and (max-width: 2980px) {
+	.web {
+		max-width: 650px;
+	}
+	.main_logo {
+		padding: 100px 0 320px;
+	}
+	.mouse {
+		margin-top: 250px;
+	}
+}
+@media screen and (max-width: 1366px) {
+	.main_logo {
+		padding: 153px 0 266px;
+	}
+	.web {
+		max-width: 530px;
+	}
+	.mouse {
+	   margin-top: 170px;
+	   padding-bottom: 55px;
+	}
+}
+@media screen and (max-width: 880px) {
+	.language a {
+		padding: 8px 9px;
+		font-size: 11px;
+	}
+	#lang li.active a {
+		padding: 8px 9px;
+		font-size: 16px;
+	}
+	label.toggleMenu::after {
+		padding: 1px 5px;
+	}
+	.header_nav ul li {
+		padding: 15px 25px;
+	}
+	.header_nav a {
+		font-size: 16px;
+	}
+	.me::after,
+	.call::after,
+	.work::after {
+		width: 25px;
+		height: 25px;
+		background-size: auto 100%;
+	}
+	.main_logo {
+		padding: 80px 0 220px;
+	}
+	.mouse {
+		margin-top: 150px;
+	}
+	#about {
+		padding: 40px 10px;
+	}
+	.about_info {
+		margin-top: 20px; 
+	}
+	.portfolio_menu {
+		padding: 50px 15px;
+	}
+	.my_portfolio {
+		width: 100%;
+		padding: 45px 15px;
+	}
+
+	..portfolio_item,
+	..portfolio_item:nth-child(3n) {
+		width: 45.45%;
+		margin: 2.27% 2.27%;
+	}
+	.my_portfolio h2 {
+		margin: 15px 15px 50px;
+	}
+	footer {
+		padding: 45px 0 0;
+	}
+	.form_text input[type="text"], 
+	.form_text input[type="email"],
+	input[type="text"]::-webkit-input-placeholder, 
+	input[type="email"]::-webkit-input-placeholder {
+		height: 30px;
+		font-size: 13px;
+	}
+	.form_text input[type="text"], 
+	.form_text input[type="email"],
+	input[type="text"]:-ms-input-placeholder, 
+	input[type="email"]:-ms-input-placeholder {
+		height: 30px;
+		font-size: 13px;
+	}
+	.form_text input[type="text"], 
+	.form_text input[type="email"],
+	input[type="text"]::-ms-input-placeholder, 
+	input[type="email"]::-ms-input-placeholder {
+		height: 30px;
+		font-size: 13px;
+	}
+	.form_text input[type="text"], 
+	.form_text input[type="email"],
+	input[type="text"]::placeholder, 
+	input[type="email"]::placeholder {
+		height: 30px;
+		font-size: 13px;
+	}
+	.contact_field {
+		width: 100%;
+	}
+	#form p {
+		font-size: 10px;
+		margin: 5px 0 10px;
+	}
+	#form_btn {
+		height: 42px;
+		font-size: 15px;
+	}
+}
+
+@media screen and (max-width: 720px) {
+	.language a {
+		padding: 6px 7px;
+		font-size: 9px;
+	}
+	#lang li.active a {
+		padding: 7px 8px;
+		font-size: 12px;
+	}
+	label.toggleMenu::after {
+		padding: 0 3px;
+	}
+	.header_nav ul li {
+		padding: 15px 25px;
+	}
+	.header_nav a {
+		font-size: 14px;
+	}
+	.me::after,
+	.call::after,
+	.work::after {
+		width: 25px;
+		height: 25px;
+		background-size: auto 100%;
+	}
+	.main_logo {
+		padding: 80px 0 200px;
+	}
+	.mouse {
+		margin-top: 100px;
+	}
+	#about {
+		padding: 10px 10px;
+	}
+	.my_portfolio h2 {
+		margin: 15px 15px 20px;
+	}
+	.my_portfolio {
+		padding: 15px 10px 110px;
+	}
+	.portfolio_menu {
+		padding: 20px 5px;
+	}
+	footer {
+		padding: 20px 0 0;
+	}
+	.contact_field {
+		padding: 20px 0;
+	}
+	.textarea {
+		height: 150px;
+		font-size: 14px;;
+	}
+	.footer {
+		padding: 0 75px 0;
+	}
+	.footer h2 {
+		font-size: 18px;
+	}
+	.form_text {
+		margin: 5px 0;
+	}
+	.form_text input[type="text"], 
+	.form_text input[type="email"],
+	input[type="text"]::-webkit-input-placeholder, 
+	input[type="email"]::-webkit-input-placeholder {
+		height: 23px;
+		font-size: 13px;
+	}
+	.form_text input[type="text"], 
+	.form_text input[type="email"],
+	input[type="text"]:-ms-input-placeholder, 
+	input[type="email"]:-ms-input-placeholder {
+		height: 23px;
+		font-size: 13px;
+	}
+	.form_text input[type="text"], 
+	.form_text input[type="email"],
+	input[type="text"]::-ms-input-placeholder, 
+	input[type="email"]::-ms-input-placeholder {
+		height: 23px;
+		font-size: 13px;
+	}
+	.form_text input[type="text"], 
+	.form_text input[type="email"],
+	input[type="text"]::placeholder, 
+	input[type="email"]::placeholder {
+		height: 23px;
+		font-size: 13px;
+	}
+	#form_btn {
+		height: 30px;
+		font-size: 14px;
+	}
+	#form p {
+		font-size: 10px;
+		margin: 0 0 5px;
+	}
+	.rel_ufo {
+		margin: 0;
+	}
+}
+
+@media screen and (max-width: 580px) {
+	h1 {
+		font-size: 28px;
+	}
+	h2 {
+		font-size: 20px;
+	}
+	.about_responsive {
+		font-size: 15px;
+	}
+	.language {
+		padding: 15px 14px;
+	}
+	.header_nav ul li {
+		margin: 15px 17px;
+		padding: 0;
+	}
+	.me::after,
+	.call::after,
+	.work::after {
+		display: none;
+	}
+	.portfolio_menu {
+		padding: 35px 15px;
+	}
+	.my_portfolio h2 {
+		margin: 15px 15px 10px;
+	}
+	.my_portfolio {
+		width: 100%;
+		padding: 5px 0 130px;
+	}
+	.portfolio_item,
+	.portfolio_item:nth-child(3n) {
+		float: none;
+		margin: 6% auto;
+		width: 86.20689655172414%;
+	}
+	footer {
+		text-align: center;
+		padding-top: 0;
+	}
+	.left, .right { float: none; }
+	.footer {
+		width: 100%;
+		padding: 10px 10px;
+	}
+	.footer h2 {
+		font-size: 18px;
+		margin: 15px 0 25px;
+	}
+	.contact_field {
+		padding-top: 0;
+	}
+	.align_right {
+		text-align: left;
+	}
+	.social_contacts a {
+		margin: 0 5px 10px;
+	}
+	.phone a {
+		margin: 10px 0;
+	}
+	.copyright {
+		font-size: 12px;
+		text-align: center;
+		padding: 15px 60px;
+	}
+	.topbtn {
+		right: 10px;
+	}
+	.topbtn.active {
+		bottom: 20px;
+	}
+}
+
+@media screen and (max-width: 375px) {
+	h1 {
+		font-size: 25px;
+	}
+	h2 {
+		font-size: 18px;
+	}
+	.about_responsive {
+		font-size: 13px;
+	}
+	.header_nav ul li {
+		margin: 15px 11px;
+		padding: 0;
+	}
+	.me::after,
+	.call::after,
+	.work::after {
+		display: none;
+	}
+	.about_info {
+		padding: 15px 10px;
+	}
+	
+	.about_info ul {
+		padding-left: 5px;
+	}
+	.portfolio_menu {
+		padding: 35px 15px;
+	}
+	.my_portfolio {
+		width: 100%;
+		padding: 5px 0 65px;
+	}
+	.man_bg {
+		width: 173px;
+		height: 100px;
+
+	}
+	.portfolio_item,
+	.portfolio_item:nth-child(3n) {
+		float: none;
+		margin: 6% auto;
+		width: 86.20689655172414%;
+
+	}
+	.hidden {
+		display: none;
+	}
+	footer {
+		text-align: center;
+		background: rgba(0,0,0,0.8);
+	}
+	.left, .right { float: none; }
+	.footer {
+		width: 100%;
+		padding: 10px 10px;
+	}
+	.footer h2 {
+		font-size: 18px;
+		margin: 15px 0 25px;
+	}
+	.social_contacts a {
+		margin: 0 5px 10px;
+	}
+	.phone a {
+		margin: 10px 0;
+	}
+	.copyright {
+		font-size: 12px;
+		text-align: center;
+		padding: 15px 70px;
+	}
+	.topbtn {
+		right: 10px;
+	}
+	.topbtn.active {
+		bottom: 20px;
+	}
+	.html,
+	.js {
+		max-width: 300px;
+	}
+}
