@@ -34,11 +34,11 @@ $(document).ready(function() {
 });
 
 	// ДОБАВЛЯЕТ/УДАЛЯЕТ КЛАСС ПРИ КЛИКЕ
-/* $("#show").click(function(e) {
-  e.preventDefault();
-  $("#lang li").removeClass('active');
-  $(this).addClass('active');
-}); */
+/* 
+	$(document).on('click', 'ul li', function() {
+		$(this).addClass('active').siblings().removeClass('active')
+	})
+*/
 
 $(window).scroll(function() {
 
